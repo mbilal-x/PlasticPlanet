@@ -1,0 +1,117 @@
+
+/* -------------Basic template----------------*/
+
+ *{
+  margin: 0;
+  padding:0;
+ }
+
+body, html{
+  height: 100%;
+}
+
+header{
+  height: 90px;
+  background: #3f6c75;
+  width: 100%;
+  position:fixed;
+  top: 0;
+}
+.navLogo{
+  left: 20%;
+  float:left;
+  line-height: 90px;
+
+}
+
+.navLogo a{
+  text-decoration: none;
+  font-size:2vw;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #fff;
+  letter-spacing: 8px;
+  padding-left: 20px;
+}
+.navButtons{
+  float: right;
+  margin-right: 10px;
+  line-height: 90px;
+
+}
+.navButtons a{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: sans-serif;
+  letter-spacing: 4px;
+  font-size: 1vw;
+  padding: 14px 14px;
+  color: #fff;
+
+}
+
+.active {
+    background-color:#3da5c4;
+    border-radius: 20px; 
+}
+.navButtons a:hover {
+    background-color:#fff;
+  border-radius: 20px;
+  color: #3da5c4;;
+}
+/* ----------------------------------------*/
+
+.background{
+  height: 50%;
+  background-image: url(../image/loginImageEF.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top ;
+  background-attachment: fixed;
+}
+
+.aboutArea {
+	margin: 10px 20%;
+	text-align: center;
+	min-height: 1000px;
+}
+.aboutArea h2{
+ 	font-family: sans-serif;
+	letter-spacing: 3px;
+	padding: 20px 0%;
+	font-size: 40px;
+	margin: 0;
+	color: #021a21;
+	text-transform: uppercase;
+
+}
+.aboutArea p{
+	margin: 0 10%;
+	padding-bottom: 40px;
+	line-height: 30px;
+	font-family: sans-serif;
+	font-size: 17px;
+	color: #021a21;
+}
+.aboutArea a{
+	text-transform: lowercase;
+	background-color: #3da5c4;
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 18px;
+	border-radius: 28px;
+	margin:50px 0;
+}
+.aboutArea a:hover{
+	background-color: #fff;
+	color: #3da5c4;
+	border: 3px solid #3da5c4;
+	border-radius: 28px;
+}
+img{
+	width: 200px;
+	border-radius: 50%;
+	margin-bottom: 40px;
+}
+

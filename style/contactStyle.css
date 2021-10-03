@@ -1,0 +1,94 @@
+
+/* -------------Basic template----------------*/
+
+ *{
+  margin: 0;
+  padding:0;
+ }
+
+body, html{
+  height: 100%;
+  font-family:sans-serif;
+}
+
+header{
+  height: 90px;
+  background: #3f6c75;
+  width: 100%;
+  position:fixed;
+  top: 0;
+
+}
+.navLogo{
+  left: 20%;
+  float:left;
+  line-height: 90px;
+
+}
+
+.navLogo a{
+  text-decoration: none;
+  font-size:2vw;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #fff;
+  letter-spacing: 8px;
+  padding-left: 20px;
+}
+.navButtons{
+  float: right;
+  margin-right: 10px;
+  line-height: 90px;
+
+}
+.navButtons a{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: sans-serif;
+  letter-spacing: 4px;
+  font-size: 1vw;
+  padding: 14px 14px;
+  color: #fff;
+
+}
+
+.active {
+    background-color:#3da5c4;
+    border-radius: 20px; 
+}
+.navButtons a:hover {
+    background-color:#fff;
+  border-radius: 20px;
+  color: #3da5c4;;
+}
+/* ----------------------------------------*/
+
+.background{
+  height: 100%;
+  background-image: url(../image/emailEdit.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+.contactBox{
+	border: 1px solid #3f6c75;
+	background-color:rgba(255,255,255,0.9);
+	padding: 2% 10%;
+  	width: 500px;
+ 	height: 270px;
+ 	position: fixed;
+  	top: 50%;
+ 	left: 50%;
+  	transform: translate(-50%,-50%);
+  	color: #3f6c75;
+}
+.contactBox h2{
+	font-size: 40px;
+	font-family: serif;
+	margin-bottom: 20px;
+
+}
+.contactBox pre{
+	font-size: 16px;
+}
